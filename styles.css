@@ -4,8 +4,14 @@ body {
     margin: 0;
     background-color: #1b1b32;
     color: #f5f6f7;
-  }
+    font-family: Tahoma;
+    font-size: 16px;
+}
 
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
 
 label {
   display: block;
@@ -13,3 +19,19 @@ label {
 }
 
 /*A rem ("root em") é o tamanho de fonte do elemento-raiz do documento*/
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+
